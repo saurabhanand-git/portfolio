@@ -1,8 +1,8 @@
 import React from "react";
-import about_image from "../../assets/me-about.jpg";
-import {FaAward} from "react-icons/fa";
-import {VscFolder} from "react-icons/vsc";
-import {BsPeople} from "react-icons/bs";
+import about_image from "../../assets/me-about.png";
+import { FaAward } from "react-icons/fa";
+import { VscFolder } from "react-icons/vsc";
+import { BsPeople } from "react-icons/bs";
 import "./About.css";
 
 const About = () => {
@@ -16,32 +16,43 @@ const About = () => {
             <img src={about_image} alt="about image" />
           </div>
         </div>
-     
-      <div className="about__content">
-        <div className="about__cards">
-          <article className="about__card">
-            <FaAward className="about__icon"/>
-            <h5>Experience</h5>
-            <small>3+ years working</small>
-          </article>
 
-          <article className="about__card">
-            <BsPeople className="about__icon"/>
-            <h5>Clients</h5>
-            <small>200+ world</small>
-          </article>
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Experience</h5>
+              <small>3+ years working</small>
+            </article>
 
-          <article className="about__card">
-            <VscFolder className="about__icon"/>
-            <h5>Projects</h5>
-            <small>80+ complited</small>
-          </article>
+            <article className="about__card">
+              <BsPeople className="about__icon" />
+              <h5>Clients</h5>
+              <small>200+ world</small>
+            </article>
+
+            <article className="about__card">
+              <VscFolder className="about__icon" />
+              <h5>Projects</h5>
+              <small>80+ complited</small>
+            </article>
           </div>
-          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus necessitatibus nihil ab natus harum, dignissimos aperiam quidem eum consequuntur incidunt ipsa porro sequi commodi cumque itaque fuga iste exercitationem neque.</p>
-          <a href="#contacts" className="cta btn btn-primary">Contact Me</a>
+          <p>
+            I am a Third Year Undergraduate at MMMUT, Gorakhpur, pursuing
+            Bachelors of Technology in Information Technology. I'm adaptable and
+            a quick learner who is eager to learn new technologies and utilising
+            my free time in a better way. I have a keen interest in Web
+            Development . I am just a beginner in this development field and
+            looking forward to explore and expertise in it. Also, I have a
+            decent knowledge of C, C++ (Most Comfortable) ,and JavaScript. I am
+            currently working on sharpening my Problem Solving skills and hope
+            that I will get good in near future.
+          </p>
+          <a href="#Contacts" className="contact__button">
+            Contact Me
+          </a>
         </div>
       </div>
-     
     </section>
   );
 };
