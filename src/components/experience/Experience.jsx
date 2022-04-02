@@ -1,9 +1,17 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { VscDebugBreakpointData } from "react-icons/vsc";
 import "./Experience.css";
 const Experience = () => {
+  useEffect(()=>{
+    Aos.init({
+      offset:150,
+      duration:1200
+    });
+    }, [])
   return (
-    <section id="experience">
+    <section id="experience" data-aos="fade-up">
       <h5>Real Life Exposure</h5>
       <h2>My Experience</h2>
 

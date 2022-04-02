@@ -1,9 +1,17 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { BsCheck } from "react-icons/bs";
 import "./Skills.css";
 const Skills = () => {
+  useEffect(()=>{
+    Aos.init({
+      offset:150,
+      duration:1200
+    });
+    }, [])
   return (
-    <section id="Skills">
+    <section id="Skills" data-aos="fade-up">
       <h5>Things I know</h5>
       <h2>Skills</h2>
 

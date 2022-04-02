@@ -12,7 +12,7 @@ export default {
             {
                 "id":"1",
                 "image":img1,
-                "title":"this is project title",
+                "title":"Weather City Wise",
                 "github":"https://github.com",
                 "demo":"https://github.com"
             },
@@ -26,27 +26,6 @@ export default {
             {
                 "id":"3",
                 "image":img3,
-                "title":"this is project title",
-                "github":"https://github.com",
-                "demo":"https://github.com"
-            },
-            {
-                "id":"4",
-                "image":img4,
-                "title":"this is project title",
-                "github":"https://github.com",
-                "demo":"https://github.com"
-            },
-            {
-                "id":"5",
-                "image":img5,
-                "title":"this is project title",
-                "github":"https://github.com",
-                "demo":"https://github.com"
-            },
-            {
-                "id":"6",
-                "image":img6,
                 "title":"this is project title",
                 "github":"https://github.com",
                 "demo":"https://github.com"

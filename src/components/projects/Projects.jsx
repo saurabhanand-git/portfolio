@@ -1,15 +1,19 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import "./Projects.css";
 import project__data from "./project-data";
 import img1 from "../../assets/portfolio1.jpg";
-// import img2 from "../../assets/portfolio2.jpg";
-// import img3 from "../../assets/portfolio3.jpg";
-// import img4 from "../../assets/portfolio4.jpg";
-// import img5 from "../../assets/portfolio5.png";
-// import img6 from "../../assets/portfolio6.jpg";
+
 const Projects = () => {
+  useEffect(()=>{
+    Aos.init({
+      offset:150,
+      duration:1200
+    });
+    }, [])
   return (
-    <section id="Projects">
+    <section id="projects" data-aos="fade-up">
       <h5>My Recent Works</h5>
       <h2>Projects</h2>
       {console.log(project__data.data.projects)}

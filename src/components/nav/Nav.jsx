@@ -15,9 +15,9 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        href="#header"
+        onClick={() => setActiveNav("#header")}
+        className={activeNav === "#header" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
@@ -46,7 +46,7 @@ const Nav = () => {
         <AiOutlineExperiment />
       </a>
       <a
-        href="#Projects"
+        href="#projects"
         title="My Projects"
         onClick={() => setActiveNav("#Projects")}
         className={activeNav === "#Projects" ? "active" : ""}
@@ -54,7 +54,7 @@ const Nav = () => {
         <AiOutlineFundProjectionScreen />
       </a>
       <a
-        href="#Contacts"
+        href="#achievement"
         title="Achievement"
         onClick={() => setActiveNav("#Contacts")}
         className={activeNav === "#Contacts" ? "active" : ""}

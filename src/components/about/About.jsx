@@ -1,13 +1,23 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import about_image from "../../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { VscFolder } from "react-icons/vsc";
 import { BsPeople } from "react-icons/bs";
+import {MdOutlineSchool} from "react-icons/md";
 import "./About.css";
 
+
 const About = () => {
+  useEffect(()=>{
+    Aos.init({
+      offset:150,
+      duration:900
+    });
+    }, [])
   return (
-    <section id="about">
+    <section id="about" data-aos="fade-up">
       <h5>Get to know</h5>
       <h2>About me</h2>
       <div className="container about__container">
@@ -20,21 +30,28 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years working</small>
+              <MdOutlineSchool className="about__icon" />
+              <h5><a href="http://www.mmmut.ac.in/" target="_blank">MMMUT</a></h5>
+              <small>2019-2023</small>
+              <h5>B.tech(IT)</h5>
+              <small>CGPA 8.0</small>
             </article>
 
             <article className="about__card">
-              <BsPeople className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ world</small>
+            <MdOutlineSchool className="about__icon" />
+              <h5><a href="http://www.sunbeamschools.com/school/lahartara" target="_blank">SUNBEAM</a></h5>
+              <small>2017-2018</small>
+              <h5>12th</h5>
+              <small>83.8%</small>
             </article>
+            
 
             <article className="about__card">
-              <VscFolder className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ complited</small>
+            <MdOutlineSchool className="about__icon" />
+              <h5><a href="http://www.sunbeamschools.com/school/lahartara" target="_blank">SUNBEAM</a></h5>
+              <small>2014-2015</small>
+              <h5>10th</h5>
+              <small>CGPA 9.6</small>
             </article>
           </div>
           <p>
