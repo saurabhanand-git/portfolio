@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import "./Projects.css";
 import project__data from "./project-data";
-import img1 from "../../assets/portfolio1.jpg";
+
 
 const Projects = () => {
   useEffect(()=>{
