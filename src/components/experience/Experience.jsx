@@ -19,7 +19,7 @@ const Experience = () => {
         <div className="experiences">
           <h3>Coding Ninjas | INTERN </h3>
           <div className="experience__content">
-            <h2 className="experience__duration">MAR 2022‐PRESENT | REMOTE</h2>
+            <h2 className="experience__duration">MAR 2022‐JUNE 2022 | REMOTE</h2>
             <div className="experience__details">
               <VscDebugBreakpointData className="experience__deatils-icons"/>
               <h4>Technical Content Writer</h4>
@@ -27,6 +27,10 @@ const Experience = () => {
             <div className="experience__details">
               <VscDebugBreakpointData className="experience__deatils-icons"/>
               <h4>DSA, Cloud Computing, Web-Dev</h4>
+            </div>
+            <div className="experience__details">
+              <VscDebugBreakpointData />
+              <h4><a href="https://docs.google.com/document/d/1mRJhoFYIgyVU3BoAq1boUFV7qQ2rmWnh0oBge6GOYOc/edit?usp=sharing" target="_blank" >Live Article Links</a></h4>
             </div>
             
           </div>

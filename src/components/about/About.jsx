@@ -55,7 +55,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a Third Year Undergraduate at MMMUT, Gorakhpur, pursuing
+            I am a Final Year Undergraduate at MMMUT, Gorakhpur, pursuing
             Bachelors of Technology in Information Technology. I'm adaptable and
             a quick learner who is eager to learn new technologies and utilising
             my free time in a better way. I have a keen interest in Web

@@ -12,21 +12,21 @@ export default {
             {
                 "id":"1",
                 "image":img1,
-                "title":"My portfolio Website",
-                "github":"https://github.com/saurabhanand-git/portfolio",
-                "demo":"https://saurabhanand-git.github.io/portfolio/"
+                "title":"Email Spam Classifier",
+                "github":"https://github.com",
+                "demo":"https://github.com"
             },
             {
                 "id":"2",
                 "image":img2,
-                "title":"Weather City Wise",
+                "title":"2048-WebGame",
                 "github":"https://github.com",
                 "demo":"https://github.com"
             },
             {
                 "id":"3",
                 "image":img3,
-                "title":"this is project title",
+                "title":"Sorting Visualizer",
                 "github":"https://github.com",
                 "demo":"https://github.com"
             }
