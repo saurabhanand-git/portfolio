@@ -57,6 +57,19 @@ input,textarea{
     margin: 1rem;
     
 }
+.success-message {
+    margin-top: 10px;
+    color: rgb(241, 213, 200);
+    font-weight: 500;
+    animation: fadeOut 3s forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
 
 /* MEDIA QUERY (MEDIUM DEVICES)*/
 @media screen and (max-width: 1024px) {

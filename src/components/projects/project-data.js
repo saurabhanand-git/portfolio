@@ -6,30 +6,30 @@ import img5 from "../../assets/portfolio5.png";
 import img6 from "../../assets/portfolio6.jpg";
 
 export default {
-    "success": true,
-    "data": {
-        "projects": [
-            {
-                "id":"1",
-                "image":img1,
-                "title":"Email Spam Classifier",
-                "github":"https://github.com",
-                "demo":"https://github.com"
-            },
-            {
-                "id":"2",
-                "image":img2,
-                "title":"2048-WebGame",
-                "github":"https://github.com",
-                "demo":"https://github.com"
-            },
-            {
-                "id":"3",
-                "image":img3,
-                "title":"Sorting Visualizer",
-                "github":"https://github.com",
-                "demo":"https://github.com"
-            }
-        ]
-    }
-}
+  success: true,
+  data: {
+    projects: [
+      {
+        id: "1",
+        image: img1,
+        title: "Email Spam Classifier",
+        github: "https://github.com",
+        demo: "https://github.com",
+      },
+      {
+        id: "2",
+        image: img2,
+        title: "2048-WebGame",
+        github: "https://github.com",
+        demo: "https://github.com",
+      },
+      {
+        id: "3",
+        image: img3,
+        title: "Sorting Visualizer",
+        github: "https://github.com",
+        demo: "https://github.com",
+      },
+    ],
+  },
+};
